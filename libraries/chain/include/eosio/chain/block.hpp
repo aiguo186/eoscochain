@@ -51,6 +51,12 @@ namespace eosio { namespace chain {
       }
    };
 
+   /* Extended spatial data category
+   */
+   enum class block_extension_type : uint16_t {
+       bpsig_action_time_seed  // Producer signature random number seed
+   };
+
 
    /**
     */
